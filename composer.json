@@ -1,0 +1,32 @@
+{
+    "name": "kasheftin/safemysql-static",
+    "description": "Static class wrapper for SafeMySQL class, supports several connections.",
+    "type": "library",
+    "version": "1.0.0",
+    "keywords": [
+        "db",
+        "mysql",
+		"safemysql"
+    ],
+    "homepage": "https://github.com/kasheftin/safemysql-static",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Alexey Kuznetsov",
+            "email": "kasheftin@gmail.com",
+            "role": "lead"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/kasheftin/safemysql-static/issues"
+    },
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "files": ["db.class.php"]
+    },
+	"require": {
+		"colshrapnel/safemysql": "1.0.0"
+	}
+}
