@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e36b4107fc04f2df9f7a35dd7ed7bf23",
-    "content-hash": "9d6496e3a0ed768caf9443c10c1d8dfe",
+    "hash": "95bf989733bdbb2f09a5b93e7a88ce75",
+    "content-hash": "6dddbea769f1bdc4acda7aa4ef5c3309",
     "packages": [
         {
             "name": "colshrapnel/safemysql",
@@ -56,6 +56,8 @@
     "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "^7.0"
+    },
     "platform-dev": []
 }

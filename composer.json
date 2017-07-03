@@ -26,7 +26,8 @@
     "autoload": {
         "files": ["db.class.php"]
     },
-	"require": {
-		"colshrapnel/safemysql": "1.0.0"
-	}
+    "require": {
+        "php": "^7.0",
+        "colshrapnel/safemysql": "1.0.0"
+    }
 }
